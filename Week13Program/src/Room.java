@@ -11,6 +11,8 @@ public class Room {
     private String roomDescription;
     private String roomName;
 
+    private ArrayList<Item> items;
+
     public Room(String roomName) {
         setRoomName(roomName);
     }
