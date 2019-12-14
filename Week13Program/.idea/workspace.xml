@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31d15f1-8ce9-4a48-8e3c-e1c4075140c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TechAdventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TechAdventure.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +35,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\F-19-1131\1131-W13-PROG\Week13Program" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\F-19-1131\1131-W13-PROG\Week13Program\src" />
     </key>
@@ -48,7 +54,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TechAdventure">
+    <configuration name="TechAdventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TechAdventure" />
+      <module name="Week13Program" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TechAdventureServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TechAdventureServerDemo" />
       <module name="Week13Program" />
@@ -56,8 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TechAdventureServerDemo" />
+      <item itemvalue="Application.TechAdventure" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TechAdventure" />
         <item itemvalue="Application.TechAdventureServerDemo" />
       </list>
     </recent_temporary>
@@ -74,6 +92,9 @@
       <updated>1575492041033</updated>
       <workItem from="1575492044104" duration="583000" />
       <workItem from="1575940815348" duration="3061000" />
+      <workItem from="1576295710062" duration="488000" />
+      <workItem from="1576296956376" duration="1820000" />
+      <workItem from="1576298989856" duration="7944000" />
     </task>
     <servers />
   </component>

@@ -1,16 +1,17 @@
 import com.sun.deploy.ui.DialogTemplate;
 
+import java.io.Serializable;
+
 /**
- * Date last modified: 12/9/2019
+ * Date last modified: 12/14/2019
  *
- * @author Zane Smalley
+ * @author Zane Smalley, Cooper Tyson, Jack Grantham, Tom Clark
  * CS1131 Fall 2019
  * Lab Section 2
  */
-public class Item {
+public class Item implements Serializable {
     private String itemName;
     private String itemDescription;
-    private String tooltip;
 
     public Item(String itemName) {
         setItemName(itemName);
@@ -32,12 +33,8 @@ public class Item {
         this.itemDescription = itemDescription;
     }
 
-    public String getTooltip() {
-        return tooltip;
+    @Override
+    public String toString() {
+        return itemName.toUpperCase();
     }
-
-    public void setTooltip(String tooltip) {
-        this.tooltip = tooltip;
-    }
-
 }

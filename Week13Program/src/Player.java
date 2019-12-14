@@ -1,14 +1,15 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- * Last modified on 12/9/2019
+ * Last modified on 12/14/2019
  *
- * @author Zane Smalley
+ * @author Zane Smalley, Cooper Tyson, Jack Grantham, Tom Clark
  * <p>
  * CS1131 Fall 2019
  * Lab Section 2
  */
-public class Player {
+public class Player implements Serializable {
     public long getConnectionId() {
         return connectionId;
     }
@@ -38,11 +39,26 @@ public class Player {
 
     private Room currentRoom;
 
+    public ArrayList<Item> getInventory() {
+        return inventory;
+    }
+
     private ArrayList<Item> inventory;
 
-    public Player(long connectionId, String name, Room startingRoom) {
+    public Player(long connectionId) {
         setConnectionId(connectionId);
-        setName(name);
-        setCurrentRoom(startingRoom);
+        inventory = new ArrayList<>();
+    }
+
+    public void addItemToInventory(Item item) {
+        inventory.add(item);
+    }
+
+    public String printInventory() {
+        return inventory.toString();
+    }
+
+    public void dropItem(Item item) {
+        inventory.remove(item);
     }
 }
